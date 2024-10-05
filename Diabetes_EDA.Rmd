@@ -1161,28 +1161,3 @@ pie(outcome_counts,
 From the above plot it can be seen that 65.1% of the individuals in this
 data set are not diabetics and 34.9% are diabetics.
 
-## Line Plot Using Amazon's Stock Market Data
-
-```{r}
-amazon<-read.csv("C:\\Users\\Admin\\Desktop\\US2024\\STA\\amazon_stock_data.csv")
-head(amazon)
-```
-## Cleaning the data
-
-```{r}
-any_na(amazon)
-```
-## Time Series Plot of the closing price of Amazon
-```{r}
-amazon$Date <- as.Date(amazon$Date) 
-ggplot(amazon,aes(x=Date,y=Close))+
-  geom_line(color="darkblue")+
-  labs(x="Year",y="Closing Price of Amazon",title="Amazon Stock Price Over Time")+
-  theme(axis.title=element_text(color="darkblue"),plot.title=element_text(color="darkblue"))
-```
-
-### Interpretations
-
--There is a generally upward trend in the stock price over time, indicating that Amazon's stock price has been increasing over the past several years.
-
--There are also some fluctuations in the stock price over time, with periods of both increase and decrease.
