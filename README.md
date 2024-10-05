@@ -15,3 +15,4 @@ This project utilizes the Pima Indians Diabetes dataset from the National Instit
 ### Objective
 The objective of this project is to explore the dataset and build predictive models to determine the likelihood of diabetes in patients based on the provided attributes.
 
+![Pima Indians]("C:\Users\Admin\Documents\GitHub\Diabetes-Dataset-Pima-Indians-Analysis-in-R\1_NBA8c2rtdUiiWG1c3FVqtw.jpg")
