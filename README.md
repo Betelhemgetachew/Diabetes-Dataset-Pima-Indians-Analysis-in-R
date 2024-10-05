@@ -1,10 +1,17 @@
 ## Diabetes Dataset-Pima Indians Analysis
-This dataset is originally from the National Institute of Diabetes and
-Digestive and Kidney Diseases. The objective of the dataset is to
-diagnostically predict whether a patient has diabetes, based on certain
-diagnostic measurements included in the dataset. Several constraints
-were placed on the selection of these instances from a larger database.
-In particular, all patients here are females at least 21 years old of
-Pima Indian heritage.2 From the data set in the (.csv) File We can find
-several variables, some of them are independent(several medical
-predictor variables) and only one target dependent variable (Outcome).
+### About the Project
+This project utilizes the Pima Indians Diabetes dataset from the National Institute of Diabetes and Digestive and Kidney Diseases to predict diabetes diagnosis based on various diagnostic measurements. The dataset comprises female patients aged 21 and older of Pima Indian heritage, featuring several independent medical predictor variables and a single dependent variable (Outcome).
+
+### Dataset Attributes
+Pregnancies: Number of pregnancies.
+Glucose: Blood glucose level.
+Blood Pressure: Blood pressure measurement.
+Skin Thickness: Thickness of skin.
+Insulin: Blood insulin level.
+BMI: Body mass index.
+Diabetes Pedigree Function: Genetic likelihood of diabetes.
+Age: Age of the patient.
+Outcome: Diagnosis result (1 indicates diabetes, 0 indicates no diabetes).
+### Objective
+The objective of this project is to explore the dataset and build predictive models to determine the likelihood of diabetes in patients based on the provided attributes.
+
